@@ -15,7 +15,7 @@ This guide assumes the user has already downloaded LAMMPS. To download LAMMPS an
   rm ML-RANN/*
   ```
 
-  3) Copy all filesin the ML-RANN repository to the lammps/src/ML-RANN directory
+  3) Copy all files in the ML-RANN repository to the lammps/src/ML-RANN directory
   4) Reinstall the ML-RANN package and compile LAMMPS
 
   ```
