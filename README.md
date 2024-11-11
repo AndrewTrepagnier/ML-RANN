@@ -8,13 +8,14 @@ This guide assumes the user has already downloaded LAMMPS. To download LAMMPS an
   make no-ML-RANN
   ```
 
-  2) Remove all existing RANN files in the lammps/src directory
+  2) Remove all existing RANN files in the lammps/src directory and the lammps/src/ML-RANN directory
 
   ```
   rm *rann*
+  rm ML-RANN/*
   ```
 
-  3) Copy the this ML-RANN to the lammps/src directory
+  3) Copy all filesin the ML-RANN repository to the lammps/src/ML-RANN directory
   4) Reinstall the ML-RANN package and compile LAMMPS
 
   ```
